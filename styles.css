@@ -17,15 +17,15 @@ body {
 }
 .header h1 {
   font-size: 2.5em;
-  color: #00bfa5;
+  color: #A800FF;
   margin-bottom: 10px;
 }
 .header nav .nav-button {
   color: #f0f0f0;
-  background-color: #00bfa5;
+  background-color: #A800FF;
   border: none;
   padding: 10px 20px;
-  margin: 0 5px;
+  margin: 10px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
@@ -39,7 +39,6 @@ body {
   max-width: 800px;
   margin: 20px auto;
   display: block;
-  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out;
 }
@@ -51,7 +50,7 @@ body {
 }
 .content h1 {
   font-size: 3em;
-  color: #00bfa5;
+  color: #A800FF;
   margin-bottom: 10px;
 }
 .content p {
@@ -59,7 +58,7 @@ body {
   font-size: 1.2em;
 }
 .join-button {
-  background-color: #00bfa5;
+  background-color: #A800FF;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
@@ -81,7 +80,6 @@ body {
 .images-grid img {
   width: 22%;
   margin: 10px;
-  border-radius: 10px;
   transition: transform 0.3s ease-in-out;
 }
 .images-grid img:hover {
@@ -96,7 +94,7 @@ body {
   border-top: 1px solid #444;
 }
 .footer .copy-button {
-  background-color: #00bfa5;
+  background-color: #A800FF;
   color: #fff;
   border: none;
   padding: 10px 20px;
