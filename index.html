@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="./styles.css">
     <script>
         function copyToClipboard() {
-            const copyText = "B5WTLaRwaUQpKK7ir1wniNB6m5o8GgMrimhKMYan2R6B";
+            const copyText = "0x915a8aBa8Bab55d96B2387fFD62de8fe3bdDa09a";
             navigator.clipboard.writeText(copyText).then(() => {
-                alert("Contract address copied to clipboard!");
+                alert("0x915a8aBa8Bab55d96B2387fFD62de8fe3bdDa09a -Copied to clipboard!");
             }, () => {
                 alert("Failed to copy the contract address.");
             });
@@ -20,12 +20,12 @@
     <header class="header">
         <h1>$BRETT</h1>
         <nav>
-            <button class="nav-button">Home</button>
-            <button class="nav-button">Twitter</button>
-            <button class="nav-button">Telegram</button>
-            <button class="nav-button">Buy Now</button>
-            <button class="nav-button">Chart</button>
-            <button class="nav-button">Dextools</button>
+            <a class="nav-button" href="/">Home</a>
+            <a class="nav-button" href="https://x.com/brettonbinance" target="__blank">Twitter</a>
+            <a class="nav-button" href="https://t.me/brettonbinance" target="__blank">Telegram</a>
+            <a class="nav-button" href="https://pancakeswap.finance/swap?outputCurrency=0x915a8aBa8Bab55d96B2387fFD62de8fe3bdDa09a" target="__blank">Buy Now</a>
+            <a class="nav-button" href="https://dexscreener.com/bsc/0xf87ba2cd70c2af91ef0b842f56bbaf8a035f9c5c" target="__blank">Dexscreener</a>
+            <a class="nav-button" href="https://www.dextools.io/app/en/bnb/pair-explorer/0xf87ba2cd70c2af91ef0b842f56bbaf8a035f9c5c" target="__blank">Dextools</a>
         </nav>
     </header>
     
@@ -45,7 +45,7 @@
     </div>
     
     <footer class="footer">
-        <button class="copy-button" onclick="copyToClipboard()">CA: B5WTLaRwaUQpKK7ir1wniNB6m5o8GgMrimhKMYan2R6B</button>
+        <button class="copy-button" onclick="copyToClipboard()">CA: 0x915a8aBa8Bab55d96B2387fFD62de8fe3bdDa09a</button>
         <p>$BRETT © 2024. All Rights Reserved.</p>
     </footer>
 </body>
