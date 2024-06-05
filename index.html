@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRETT</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script>
+        function copyToClipboard() {
+            const copyText = "B5WTLaRwaUQpKK7ir1wniNB6m5o8GgMrimhKMYan2R6B";
+            navigator.clipboard.writeText(copyText).then(() => {
+                alert("Contract address copied to clipboard!");
+            }, () => {
+                alert("Failed to copy the contract address.");
+            });
+        }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <h1>BRETT</h1>
+        <nav>
+            <button class="nav-button">Home</button>
+            <button class="nav-button">Twitter</button>
+            <button class="nav-button">Telegram</button>
+            <button class="nav-button">Buy Now</button>
+            <button class="nav-button">Chart</button>
+            <button class="nav-button">Dextools</button>
+        </nav>
+    </header>
+    
+    <img src="./1.jpg" alt="Main Pepe Image" class="main-image">
+    
+    <div class="content">
+        <h1>BRETT</h1>
+        <p>Brett on Binance</p>
+        <a href="#" class="join-button">Join Us</a>
+    </div>
+    
+    <div class="images-grid">
+        <img src="./2.jpg" alt="Pepe Image 1">
+        <img src="./3.jpg" alt="Pepe Image 1">
+        <img src="./4.jpg" alt="Pepe Image 2">
+        <img src="./5.jpg" alt="Pepe Image 3">
+    </div>
+    
+    <footer class="footer">
+        <button class="copy-button" onclick="copyToClipboard()">CA: B5WTLaRwaUQpKK7ir1wniNB6m5o8GgMrimhKMYan2R6B</button>
+        <p>BRETT © 2024. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
